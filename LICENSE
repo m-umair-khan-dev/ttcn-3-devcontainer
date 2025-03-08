@@ -1,21 +1,40 @@
-MIT License
+# LICENSE
+
+## Section 1: Dev Container Configuration & Dockerfile (CC BY-NC 4.0)
 
 Copyright (c) 2025 Muhammad Umair Khan
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This work (including the Dockerfile, Dev Container configuration, and associated documentation) is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### You are free to:
+- **Use** and **modify** these files for **personal or educational purposes**.
+- **Share** these files as long as you **credit the original author**.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### Restrictions:
+- **Commercial use is not allowed**. You cannot sell or use this work for commercial purposes.
+
+### Full License:
+For full details, see [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+---
+
+## Section 2: Eclipse Titan (EPL-1.0)
+
+This repository includes **Eclipse Titan**, which is licensed under the **Eclipse Public License 1.0 (EPL-1.0)**.
+
+### Important Notes:
+- Eclipse Titan is **developed and maintained** by the **Eclipse Foundation**.
+- The source code for Eclipse Titan is **not modified** in this repository.
+- If you **modify and distribute** the Titan source code, you must comply with **EPL-1.0**.
+
+### Full License:
+For details, see [EPL-1.0](https://www.eclipse.org/legal/epl-v10.html).
+
+Eclipse Titan Repository: [https://gitlab.eclipse.org/eclipse/titan/titan.core](https://gitlab.eclipse.org/eclipse/titan/titan.core)
+
+---
+
+By using this repository, you agree to comply with **both licenses**:
+- **CC BY-NC 4.0** for the Dockerfile and Dev Container configuration.
+- **EPL-1.0** for the Eclipse Titan toolset included in the Docker image.
+
