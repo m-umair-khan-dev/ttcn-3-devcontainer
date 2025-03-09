@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+    "name": "TTCN-3-Devcontainer",
+    "image": "ghcr.io/m-umair-khan-dev/ttcn-3-devcontainer:latest",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "remote.containers.serverInstallPath": "/vscode-server"
+            },
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.gitlens",
+                "ms-vscode.makefile-tools"
+            ]
+        }
+    },
+    "features": {},
+    "remoteUser": "titan",
+    "postCreateCommand": "source /home/titan/.bashrc"
+}
